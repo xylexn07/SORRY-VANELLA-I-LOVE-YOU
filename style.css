@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(to right, #ffdde1, #fccde2);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background: #fff0f5;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.3);
+    max-width: 600px;
+    width: 90%;
+  }
+  
+  h1 {
+    color: #d81b60;
+    font-size: 36px;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    color: #ad1457;
+    margin-bottom: 30px;
+  }
+  
+  #heartButton {
+    background: #ec407a;
+    color: white;
+    font-size: 24px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-bottom: 30px;
+  }
+  
+  #heartButton:hover {
+    background: #d81b60;
+    transform: scale(1.05);
+  }
+  
+  #message {
+    font-size: 18px;
+    color: #6a1b45;
+    line-height: 1.6;
+    white-space: pre-wrap;
+  }
+  
